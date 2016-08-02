@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FunnelUp_Example' do
+  pod 'FunnelUp', :path => '../'
+
+  target 'FunnelUp_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
