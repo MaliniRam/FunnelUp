@@ -18,4 +18,8 @@
 {
     NSLog(@"Hello World %@",test);
 }
+-(void)myThirdFunction:(NSString*)test
+{
+    NSLog(@"Hello World %@",test);
+}
 @end
