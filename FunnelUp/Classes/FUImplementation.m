@@ -14,5 +14,8 @@
     NSLog(@"Hello World %@",test);
     
 }
-
+-(void)mySecondFunction:(NSString*)test
+{
+    NSLog(@"Hello World %@",test);
+}
 @end

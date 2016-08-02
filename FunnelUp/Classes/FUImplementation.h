@@ -10,4 +10,5 @@
 
 @interface FUImplementation : NSObject
 -(void)myfirstFunction:(NSString*)test;
+-(void)mySecondFunction:(NSString*)test;
 @end
