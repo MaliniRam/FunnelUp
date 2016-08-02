@@ -1,0 +1,6 @@
+framework module Pods_FunnelUp_Tests {
+  umbrella header "Pods-FunnelUp_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

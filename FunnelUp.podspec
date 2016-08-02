@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FunnelUp'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FunnelUp.'
+  s.summary          = 'Allows users to send their device token to our server, so that they can start receiving push notifications'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This cocoa pod is based on ObjectiveC. This pod basically focuses on developers who do not have a server of their own. This pod allows users to send their device token to our server, so that they can start receiving push notifications.'
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/FunnelUp'
+  s.homepage         = 'https://github.com/MaliniRam/FunnelUp'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MaliniRam' => 'malini.ramanathan@snyxius.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/FunnelUp.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MaliniRam/FunnelUp.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

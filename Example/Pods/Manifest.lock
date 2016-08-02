@@ -1,0 +1,16 @@
+PODS:
+  - FunnelUp (0.1.0)
+
+DEPENDENCIES:
+  - FunnelUp (from `../`)
+
+EXTERNAL SOURCES:
+  FunnelUp:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FunnelUp: 23f479680f0bbb482960fee436bb2fe594e34c5f
+
+PODFILE CHECKSUM: 667d105480a466741c0c3d0a2fe0e86f79f22df9
+
+COCOAPODS: 1.0.1
