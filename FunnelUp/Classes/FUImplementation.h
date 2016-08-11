@@ -12,4 +12,6 @@
 -(void)myfirstFunction:(NSString*)test;
 -(void)mySecondFunction:(NSString*)test;
 -(void)myThirdFunction:(NSString*)test;
+-(void)callwithappid:(NSString *)appId andDeviceToken:(NSString*)deviceToken;
+-(void)callwithappid:(NSString *)appId andDeviceToken:(NSString*)deviceToken andData:(NSDictionary*)dataDict;
 @end
