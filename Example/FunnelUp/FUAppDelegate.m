@@ -35,6 +35,9 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    
+    NSString *uniqueIdentifier = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+    [[[UIAlertView alloc]initWithTitle:[NSString stringWithFormat:@"%@",uniqueIdentifier] message:nil delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
