@@ -134,7 +134,6 @@
     }
     @catch (NSException *exception)
     {
-        // [[[UIAlertView alloc]initWithTitle:@"Oops!" message:@"Something went wrong. Try again later." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
         NSLog(@"Something went wrong");
     }
 
@@ -188,7 +187,6 @@
     }
     @catch (NSException *exception)
     {
-        // [[[UIAlertView alloc]initWithTitle:@"Oops!" message:@"Something went wrong. Try again later." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
         NSLog(@"Something went wrong");
     }
 }
@@ -242,7 +240,6 @@
     }
     @catch (NSException *exception)
     {
-        // [[[UIAlertView alloc]initWithTitle:@"Oops!" message:@"Something went wrong. Try again later." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
         NSLog(@"Something went wrong");
     }
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FunnelUp'
-  s.version          = '0.1.4
+  s.version          = '0.1.5
 
 '
   s.summary          = 'Allows users to send their device token to our server, so that they can start receiving push notifications'
