@@ -134,7 +134,7 @@
     }
     @catch (NSException *exception)
     {
-        NSLog(@"Something went wrong");
+       // NSLog(@"Something went wrong");
     }
 
 }
@@ -177,7 +177,7 @@
                      }
                      else
                      {
-                         NSLog(@"Something went wrong");
+                        // NSLog(@"Something went wrong");
                      }
                      
                  }
