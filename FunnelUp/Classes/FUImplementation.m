@@ -279,7 +279,7 @@
 
 -(void)callwithappid:(NSString *)appId andDeviceToken:(NSString*)deviceToken andData:(NSDictionary*)dataDict
 {
-     NSLog(@"appId %@ and deviceToken %@ Data Dict",appId,deviceToken);
+     //NSLog(@"appId %@ and deviceToken %@ Data Dict",appId,deviceToken);
     @try
     {
         NSDictionary *sendDic=[NSDictionary dictionaryWithObjectsAndKeys:appId,@"appid",deviceToken,@"devicetoken",dataDict,@"data",nil];
