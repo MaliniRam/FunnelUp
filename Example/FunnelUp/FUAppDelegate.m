@@ -7,12 +7,15 @@
 //
 
 #import "FUAppDelegate.h"
+#import "FUImplementation.h"
 
 @implementation FUAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    FUImplementation *obj=[[FUImplementation alloc]init];
+    
     return YES;
 }
 

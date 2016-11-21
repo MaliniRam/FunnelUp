@@ -7,6 +7,8 @@
 //
 
 #import "FUImplementation.h"
+#import <UserNotifications/UserNotifications.h>
+#define SYSTEM_VERSION_GRATERTHAN_OR_EQUALTO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
 
 @implementation FUImplementation
 -(void)myfirstFunction:(NSString*)test
@@ -243,6 +245,34 @@
         NSLog(@"Something went wrong");
     }
 
+}
+
+
+-(void)registerForPushNotifications
+{
+    if(SYSTEM_VERSION_GRATERTHAN_OR_EQUALTO(@"10.0")){
+        UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+        center.delegate = self;
+        [center requestAuthorizationWithOptions:(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge) completionHandler:^(BOOL granted, NSError * _Nullable error){
+            if( !error ){
+                [[UIApplication sharedApplication] registerForRemoteNotifications];
+            }
+        }];
+    }
+    
+    else
+    {
+        if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerUserNotificationSettings:)])
+        {
+            [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];
+            
+        }
+        else
+        {
+            [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
+             (UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)];
+        }
+    }
 }
 
 -(void)callwithappid:(NSString *)appId andDeviceToken:(NSString*)deviceToken andData:(NSDictionary*)dataDict

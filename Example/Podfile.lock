@@ -1,5 +1,5 @@
 PODS:
-  - FunnelUp (0.1.0)
+  - FunnelUp (0.1.9)
 
 DEPENDENCIES:
   - FunnelUp (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FunnelUp: 23f479680f0bbb482960fee436bb2fe594e34c5f
+  FunnelUp: c1f5ae6875c30ee5108c18579c4a1229cc5515b3
 
 PODFILE CHECKSUM: 667d105480a466741c0c3d0a2fe0e86f79f22df9
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2

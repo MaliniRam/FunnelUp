@@ -20,6 +20,7 @@
     [super viewDidLoad];
     FUImplementation *obj=[[FUImplementation alloc]init];
     [obj myfirstFunction:@"Hare Krishna"];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
