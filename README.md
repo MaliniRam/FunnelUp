@@ -17,7 +17,7 @@ FunnelUp is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "FunnelUp", '~> 0.1.9'
+pod "FunnelUp", '~> 0.1.10'
 ```
 
 ## Author

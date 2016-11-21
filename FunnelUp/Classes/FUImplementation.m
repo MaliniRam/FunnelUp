@@ -7,7 +7,7 @@
 //
 
 #import "FUImplementation.h"
-#import <UserNotifications/UserNotifications.h>
+
 #define SYSTEM_VERSION_GRATERTHAN_OR_EQUALTO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
 
 @implementation FUImplementation
@@ -250,11 +250,13 @@
 
 -(void)registerForPushNotifications
 {
-    if(SYSTEM_VERSION_GRATERTHAN_OR_EQUALTO(@"10.0")){
+    if(SYSTEM_VERSION_GRATERTHAN_OR_EQUALTO(@"10.0"))
+    {
         UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
         center.delegate = self;
         [center requestAuthorizationWithOptions:(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge) completionHandler:^(BOOL granted, NSError * _Nullable error){
-            if( !error ){
+            if( !error )
+            {
                 [[UIApplication sharedApplication] registerForRemoteNotifications];
             }
         }];

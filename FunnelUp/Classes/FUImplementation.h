@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UserNotifications/UserNotifications.h>
 
-@interface FUImplementation : NSObject
+@interface FUImplementation : NSObject<UNUserNotificationCenterDelegate>
 -(void)myfirstFunction:(NSString*)test;
 -(void)mySecondFunction:(NSString*)test;
 -(void)myThirdFunction:(NSString*)test;
