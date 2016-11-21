@@ -271,8 +271,8 @@
         }
         else
         {
-            [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
-             (UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)];
+           // [[UIApplication sharedApplication] registerForRemoteNotificationTypes: (UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)];
+            [[UIApplication sharedApplication]registerForRemoteNotifications];
         }
     }
 }
