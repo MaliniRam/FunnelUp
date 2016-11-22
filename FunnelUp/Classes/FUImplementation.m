@@ -89,9 +89,6 @@
     {
         
         NSBundle* mainBundle = [NSBundle mainBundle];
-        
-        
-        // Reads the value of the custom key I added to the Info.plist
         NSString *value = [mainBundle objectForInfoDictionaryKey:@"GleanTapAppId"];
         NSDictionary *sendDic=[NSDictionary dictionaryWithObjectsAndKeys:value,@"appid",deviceToken,@"devicetoken",userName,@"userid",@"ios",@"platform",dataDict,@"data",nil];
         NSError *writeError = nil;
@@ -338,4 +335,123 @@
 
 }
 
+
+-(void)userSessionWithDeviceToken:(NSString*)deviceToken
+{
+    /*
+     "appid": "5833fb09fbb5971f3ea36be7",
+     "userId": "",
+     "platform":"ios",
+     "devicetoken":"ygyb"
+     */
+     NSBundle* mainBundle = [NSBundle mainBundle];
+     NSString *appId = [mainBundle objectForInfoDictionaryKey:@"GleanTapAppId"];
+    @try
+    {
+        NSDictionary *sendDic=[NSDictionary dictionaryWithObjectsAndKeys:appId,@"appid",deviceToken,@"devicetoken",@"ios",@"platform",nil];
+        NSError *writeError = nil;
+        NSData *requestData = [NSJSONSerialization dataWithJSONObject:sendDic options:NSJSONWritingPrettyPrinted error:&writeError];
+        NSString *baseURL=@"http://45.55.245.79:81/projects/funnelup/branches/sumana/index.php/register/userSession";
+        NSURL *url = [NSURL URLWithString:baseURL];
+        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:1660.0];
+        [request setHTTPMethod:@"POST"];
+        [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+        [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+        [request setValue:[NSString stringWithFormat:@"%lu", (unsigned long)[requestData length]] forHTTPHeaderField:@"Content-Length"];
+        [request setHTTPBody: requestData];
+        [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue currentQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError)
+         {
+             
+             if (connectionError)
+             {
+                 
+                 
+             }
+             else
+             {
+                 NSDictionary *jsonDic1=[[NSDictionary alloc]init];
+                 jsonDic1=(NSDictionary*)[NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+                 if (jsonDic1 == nil)
+                 {
+                     [[[UIAlertView alloc]initWithTitle:@"Oops!" message:@"Something went wrong. Try again later." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
+                 }
+                 else
+                 {
+                     if ([[jsonDic1 valueForKey:@"status"]isEqualToString:@"success"])
+                     {
+                         NSLog(@"Details Saved");
+                     }
+                     else
+                     {
+                         NSLog(@"Something went wrong");
+                     }
+                     
+                 }
+             }
+             
+         }];
+    }
+    @catch (NSException *exception)
+    {
+        NSLog(@"Something went wrong");
+    }
+    
+}
+
+-(void)clickedOnPushNotification:(NSString*)campaignID
+{
+   
+    NSBundle* mainBundle = [NSBundle mainBundle];
+    NSString *appId = [mainBundle objectForInfoDictionaryKey:@"GleanTapAppId"];
+    @try
+    {
+        NSDictionary *sendDic=[NSDictionary dictionaryWithObjectsAndKeys:appId,@"appid",campaignID,@"campaign_id",@"ios",@"platform",nil];
+        NSError *writeError = nil;
+        NSData *requestData = [NSJSONSerialization dataWithJSONObject:sendDic options:NSJSONWritingPrettyPrinted error:&writeError];
+        NSString *baseURL=@"http://45.55.245.79:81/projects/funnelup/branches/sumana/index.php/register/userSession";
+        NSURL *url = [NSURL URLWithString:baseURL];
+        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:1660.0];
+        [request setHTTPMethod:@"POST"];
+        [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+        [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+        [request setValue:[NSString stringWithFormat:@"%lu", (unsigned long)[requestData length]] forHTTPHeaderField:@"Content-Length"];
+        [request setHTTPBody: requestData];
+        [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue currentQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError)
+         {
+             
+             if (connectionError)
+             {
+                 
+                 
+             }
+             else
+             {
+                 NSDictionary *jsonDic1=[[NSDictionary alloc]init];
+                 jsonDic1=(NSDictionary*)[NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+                 if (jsonDic1 == nil)
+                 {
+                     [[[UIAlertView alloc]initWithTitle:@"Oops!" message:@"Something went wrong. Try again later." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
+                 }
+                 else
+                 {
+                     if ([[jsonDic1 valueForKey:@"status"]isEqualToString:@"success"])
+                     {
+                         NSLog(@"Details Saved");
+                     }
+                     else
+                     {
+                         NSLog(@"Something went wrong");
+                     }
+                     
+                 }
+             }
+             
+         }];
+    }
+    @catch (NSException *exception)
+    {
+        NSLog(@"Something went wrong");
+    }
+    
+}
 @end
