@@ -7,46 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D1335E98205517A6DCE3774078652FB /* Pods-FunnelUp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A28C13F0123E51272B535F8AE8C6F453 /* Pods-FunnelUp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		186DD9A050B8A80E2A2E5EE37217DF8D /* Pods-FunnelUp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73627621465DCBFC764F64593A204793 /* Pods-FunnelUp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E4AE5F92FE81C776551768A2CAF9D25 /* Pods-FunnelUp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C92CEC0ADDDEB4DC651BE6370DCCE6D /* Pods-FunnelUp_Example-dummy.m */; };
-		223E734FF79DC987C1EF65CEAAF7EAEE /* FUImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D0A78523C86E21D805A8F9C1A5F164 /* FUImplementation.m */; };
-		2CA9D8B1896A0108ECC07780B096860E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1B402EF7DF8BBD23DEF1EF4384E5B8F0 /* Pods-FunnelUp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A28C13F0123E51272B535F8AE8C6F453 /* Pods-FunnelUp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F3FF44CA3DC1BBF8E89535EE1B720A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		4E0366FF070AEDAF840F473B5B7331B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		72428FC25DE4801DA6C947ACB77DB31B /* FunnelUp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB24C782F064A4171CCEA6FDDC85075 /* FunnelUp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D789134417A8DDDB3BAFD30FEDBDF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6305EEBD9A03E7DC08CC7444B003F2C7 /* Pods-FunnelUp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C92CEC0ADDDEB4DC651BE6370DCCE6D /* Pods-FunnelUp_Example-dummy.m */; };
 		A76D1DEFFF606118511D486F222EEB1A /* Pods-FunnelUp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEABEDE0201E1225276A2454190B5C6 /* Pods-FunnelUp_Tests-dummy.m */; };
-		D4D7E06BAB28BB8364E0970C6688C872 /* FunnelUp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2340A2151BD88F029F0CE058AECB2BDD /* FunnelUp-dummy.m */; };
-		E9895CB3AA65A2A23DE9FD9CA13ABB10 /* FUImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F54D2F11E1B5D6ED01E9BE8D17F81A1 /* FUImplementation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F35063176787BCF70BB808A2210B15F5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9E949D2265D736558F9DC84C96A5E189;
-			remoteInfo = FunnelUp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		061430635820D891FC0CFB29E81F6508 /* Pods-FunnelUp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunnelUp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0CA0819465B09E15F36943C88ACC1695 /* Pods_FunnelUp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnelUp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D850B4A7B75DD7755F2BCDECAB32AD4 /* Pods-FunnelUp_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunnelUp_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		15913C00B78FDC6D8E792569CAEDD69A /* FunnelUp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunnelUp-prefix.pch"; sourceTree = "<group>"; };
 		1D1AD8F94292C257496ECEB219BB3EF5 /* Pods-FunnelUp_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunnelUp_Tests-resources.sh"; sourceTree = "<group>"; };
-		1F54D2F11E1B5D6ED01E9BE8D17F81A1 /* FUImplementation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUImplementation.h; sourceTree = "<group>"; };
-		2340A2151BD88F029F0CE058AECB2BDD /* FunnelUp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunnelUp-dummy.m"; sourceTree = "<group>"; };
 		2BA67DA1180A00208339A4122EF49C09 /* Pods-FunnelUp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunnelUp_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		40B8E303BFDB7288F90EA8F9895F8436 /* Pods_FunnelUp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnelUp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		436738BC4EADDCF8B65029799D7DE69E /* Pods-FunnelUp_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunnelUp_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		54D0A78523C86E21D805A8F9C1A5F164 /* FUImplementation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FUImplementation.m; sourceTree = "<group>"; };
-		5E0D30E3A9A82114AB310B9419FA817F /* FunnelUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunnelUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61739D9B39B07D522DB71B13A2A75734 /* Pods-FunnelUp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FunnelUp_Tests.modulemap"; sourceTree = "<group>"; };
 		626E7ADD964AF9B9AB2B1CF0320F7DE6 /* Pods-FunnelUp_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunnelUp_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6EBEADE8B6C06FA612CC813F19C7E235 /* Pods-FunnelUp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunnelUp_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73627621465DCBFC764F64593A204793 /* Pods-FunnelUp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunnelUp_Tests-umbrella.h"; sourceTree = "<group>"; };
 		75901AD4306637D49863187BC586CCE3 /* Pods-FunnelUp_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunnelUp_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7B1D79394F1C9625BC27A2B2C345089D /* FUImplementation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FUImplementation.h; sourceTree = "<group>"; };
 		7B855A7763308A82380CD4145B23D4BE /* Pods-FunnelUp_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunnelUp_Example-resources.sh"; sourceTree = "<group>"; };
 		8C92CEC0ADDDEB4DC651BE6370DCCE6D /* Pods-FunnelUp_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunnelUp_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -55,26 +36,14 @@
 		9FE48C2CD590C19703CD18363C838584 /* Pods-FunnelUp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunnelUp_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A28C13F0123E51272B535F8AE8C6F453 /* Pods-FunnelUp_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunnelUp_Example-umbrella.h"; sourceTree = "<group>"; };
 		AB6B408F51132EA56B101133114E0ABF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8020652CB4C9E27B111524B73E51BBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD50F56A9FBD567D8F7838892FCF01E8 /* FunnelUp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunnelUp.xcconfig; sourceTree = "<group>"; };
 		CA487DFA5BE42EF19913C4E61123E8EC /* Pods-FunnelUp_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunnelUp_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CFB24C782F064A4171CCEA6FDDC85075 /* FunnelUp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunnelUp-umbrella.h"; sourceTree = "<group>"; };
 		D4EA00B9AAF87FB24706BB769E6CE861 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E81BF7FA583E409A8689812BC8F47D5C /* FunnelUp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FunnelUp.modulemap; sourceTree = "<group>"; };
+		E754FB20E43310CCDA7AE087A4EE4F43 /* Pods_FunnelUp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnelUp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEABEDE0201E1225276A2454190B5C6 /* Pods-FunnelUp_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunnelUp_Tests-dummy.m"; sourceTree = "<group>"; };
-		F33EAE121F1F17A772A1437815C38ED5 /* Pods_FunnelUp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunnelUp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1FE2F1DEFC2E8C1D3FCC3718A2AABDA4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D789134417A8DDDB3BAFD30FEDBDF7B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5408162943AF38BA492EDA397D323A76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,11 +52,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA947B69E6590B8ABE3EBA02116D58B3 /* Frameworks */ = {
+		F9154B23BE43CCDCC542B2544606A6CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CA9D8B1896A0108ECC07780B096860E /* Foundation.framework in Frameworks */,
+				1F3FF44CA3DC1BBF8E89535EE1B720A5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,58 +89,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		41E8D11A8832E6728EDB91975881671E /* FunnelUp */ = {
-			isa = PBXGroup;
-			children = (
-				F6B6641DAAEEC8A47022336DA409E686 /* FunnelUp */,
-				7920DB6B6B09A8321281496F0DF5CCA9 /* Support Files */,
-			);
-			name = FunnelUp;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7920DB6B6B09A8321281496F0DF5CCA9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E81BF7FA583E409A8689812BC8F47D5C /* FunnelUp.modulemap */,
-				BD50F56A9FBD567D8F7838892FCF01E8 /* FunnelUp.xcconfig */,
-				2340A2151BD88F029F0CE058AECB2BDD /* FunnelUp-dummy.m */,
-				15913C00B78FDC6D8E792569CAEDD69A /* FunnelUp-prefix.pch */,
-				CFB24C782F064A4171CCEA6FDDC85075 /* FunnelUp-umbrella.h */,
-				B8020652CB4C9E27B111524B73E51BBA /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FunnelUp";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B3EC346449520C2218582D6A375EB6D5 /* Development Pods */,
+				D89CEA6E2BFB30DBB1DA904E8C942946 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				96252B57B29603ED71E02C2F2A6E17A7 /* Products */,
+				F292917253ECBF1270ADC16E765CF494 /* Products */,
 				9D5D0894FFBD6BA1E18606BB2C58AC2F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		96252B57B29603ED71E02C2F2A6E17A7 /* Products */ = {
+		91E69534422ADC8FB33AC10239BB9599 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D30E3A9A82114AB310B9419FA817F /* FunnelUp.framework */,
-				40B8E303BFDB7288F90EA8F9895F8436 /* Pods_FunnelUp_Example.framework */,
-				F33EAE121F1F17A772A1437815C38ED5 /* Pods_FunnelUp_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9A889F0D60491EE1FC4806036BDD82AE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1F54D2F11E1B5D6ED01E9BE8D17F81A1 /* FUImplementation.h */,
-				54D0A78523C86E21D805A8F9C1A5F164 /* FUImplementation.m */,
+				7B1D79394F1C9625BC27A2B2C345089D /* FUImplementation.h */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		95C66A99EC5026650BD51881C84DF88D /* FunnelUp */ = {
+			isa = PBXGroup;
+			children = (
+				91E69534422ADC8FB33AC10239BB9599 /* Classes */,
+			);
+			path = FunnelUp;
 			sourceTree = "<group>";
 		};
 		9D5D0894FFBD6BA1E18606BB2C58AC2F /* Targets Support Files */ = {
@@ -201,12 +143,13 @@
 			path = "Target Support Files/Pods-FunnelUp_Example";
 			sourceTree = "<group>";
 		};
-		B3EC346449520C2218582D6A375EB6D5 /* Development Pods */ = {
+		A9A83F54F88186950CC0F6498873E087 /* FunnelUp */ = {
 			isa = PBXGroup;
 			children = (
-				41E8D11A8832E6728EDB91975881671E /* FunnelUp */,
+				95C66A99EC5026650BD51881C84DF88D /* FunnelUp */,
 			);
-			name = "Development Pods";
+			name = FunnelUp;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -217,39 +160,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F6B6641DAAEEC8A47022336DA409E686 /* FunnelUp */ = {
+		D89CEA6E2BFB30DBB1DA904E8C942946 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9A889F0D60491EE1FC4806036BDD82AE /* Classes */,
+				A9A83F54F88186950CC0F6498873E087 /* FunnelUp */,
 			);
-			path = FunnelUp;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F292917253ECBF1270ADC16E765CF494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E754FB20E43310CCDA7AE087A4EE4F43 /* Pods_FunnelUp_Example.framework */,
+				0CA0819465B09E15F36943C88ACC1695 /* Pods_FunnelUp_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6A81EE6587085F6FEB496576C3F4B118 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B402EF7DF8BBD23DEF1EF4384E5B8F0 /* Pods-FunnelUp_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79BFE7FE831095755C28EEC9B6307053 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				186DD9A050B8A80E2A2E5EE37217DF8D /* Pods-FunnelUp_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE67CBF3BD993F6BEF213EFEC138854D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D1335E98205517A6DCE3774078652FB /* Pods-FunnelUp_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEC849BF58D1E3825268BA6482250DF5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9895CB3AA65A2A23DE9FD9CA13ABB10 /* FUImplementation.h in Headers */,
-				72428FC25DE4801DA6C947ACB77DB31B /* FunnelUp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,42 +213,24 @@
 			);
 			name = "Pods-FunnelUp_Tests";
 			productName = "Pods-FunnelUp_Tests";
-			productReference = F33EAE121F1F17A772A1437815C38ED5 /* Pods_FunnelUp_Tests.framework */;
+			productReference = 0CA0819465B09E15F36943C88ACC1695 /* Pods_FunnelUp_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9E949D2265D736558F9DC84C96A5E189 /* FunnelUp */ = {
+		3ABE131BD134B9EB1CB9D875D89A0B4F /* Pods-FunnelUp_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDD304899F50122B243541ED3C11BDAD /* Build configuration list for PBXNativeTarget "FunnelUp" */;
+			buildConfigurationList = 9CF4709BC1E13013A4AAA5DB015E230C /* Build configuration list for PBXNativeTarget "Pods-FunnelUp_Example" */;
 			buildPhases = (
-				AAEF21285CD539512C8D9AD1E88338FB /* Sources */,
-				FA947B69E6590B8ABE3EBA02116D58B3 /* Frameworks */,
-				CEC849BF58D1E3825268BA6482250DF5 /* Headers */,
+				7BAC532657FCA7BE904E8D0FB6997E50 /* Sources */,
+				F9154B23BE43CCDCC542B2544606A6CE /* Frameworks */,
+				6A81EE6587085F6FEB496576C3F4B118 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = FunnelUp;
-			productName = FunnelUp;
-			productReference = 5E0D30E3A9A82114AB310B9419FA817F /* FunnelUp.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F1D433EF5F28FA578E9B494F6557372F /* Pods-FunnelUp_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 31D80320E7012FEBBFFF024BAF5C93D6 /* Build configuration list for PBXNativeTarget "Pods-FunnelUp_Example" */;
-			buildPhases = (
-				96941321C4DE6929B8B49A952C6A3AB9 /* Sources */,
-				1FE2F1DEFC2E8C1D3FCC3718A2AABDA4 /* Frameworks */,
-				BE67CBF3BD993F6BEF213EFEC138854D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7FE59202B14EFD0E7F0F16CE7E348851 /* PBXTargetDependency */,
 			);
 			name = "Pods-FunnelUp_Example";
 			productName = "Pods-FunnelUp_Example";
-			productReference = 40B8E303BFDB7288F90EA8F9895F8436 /* Pods_FunnelUp_Example.framework */;
+			productReference = E754FB20E43310CCDA7AE087A4EE4F43 /* Pods_FunnelUp_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -325,12 +250,11 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 96252B57B29603ED71E02C2F2A6E17A7 /* Products */;
+			productRefGroup = F292917253ECBF1270ADC16E765CF494 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E949D2265D736558F9DC84C96A5E189 /* FunnelUp */,
-				F1D433EF5F28FA578E9B494F6557372F /* Pods-FunnelUp_Example */,
+				3ABE131BD134B9EB1CB9D875D89A0B4F /* Pods-FunnelUp_Example */,
 				35CA054D47CB3380C655E471C49BF37C /* Pods-FunnelUp_Tests */,
 			);
 		};
@@ -345,65 +269,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96941321C4DE6929B8B49A952C6A3AB9 /* Sources */ = {
+		7BAC532657FCA7BE904E8D0FB6997E50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E4AE5F92FE81C776551768A2CAF9D25 /* Pods-FunnelUp_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAEF21285CD539512C8D9AD1E88338FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				223E734FF79DC987C1EF65CEAAF7EAEE /* FUImplementation.m in Sources */,
-				D4D7E06BAB28BB8364E0970C6688C872 /* FunnelUp-dummy.m in Sources */,
+				6305EEBD9A03E7DC08CC7444B003F2C7 /* Pods-FunnelUp_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		7FE59202B14EFD0E7F0F16CE7E348851 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FunnelUp;
-			target = 9E949D2265D736558F9DC84C96A5E189 /* FunnelUp */;
-			targetProxy = F35063176787BCF70BB808A2210B15F5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		1D85403C335A25487E6F7AD91E44235A /* Release */ = {
+		046F44930E03105C5F07FF807DFBC1FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD50F56A9FBD567D8F7838892FCF01E8 /* FunnelUp.xcconfig */;
+			baseConfigurationReference = 2BA67DA1180A00208339A4122EF49C09 /* Pods-FunnelUp_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FunnelUp/FunnelUp-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FunnelUp/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-FunnelUp_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FunnelUp/FunnelUp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FunnelUp;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunnelUp_Example/Pods-FunnelUp_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunnelUp_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		2DA005ED1104E77BC5D72AC8C6B8A8FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -440,36 +350,40 @@
 			};
 			name = Debug;
 		};
-		760FB75AA8B973505544AD89D0638402 /* Debug */ = {
+		33F48C1A861AF218C5DBB6FB5067D7EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD50F56A9FBD567D8F7838892FCF01E8 /* FunnelUp.xcconfig */;
+			baseConfigurationReference = 6EBEADE8B6C06FA612CC813F19C7E235 /* Pods-FunnelUp_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FunnelUp/FunnelUp-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FunnelUp/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-FunnelUp_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FunnelUp/FunnelUp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FunnelUp;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunnelUp_Example/Pods-FunnelUp_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunnelUp_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -590,76 +504,6 @@
 			};
 			name = Release;
 		};
-		EF0496DB1DD62AAEBBC64EA8B041A102 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BA67DA1180A00208339A4122EF49C09 /* Pods-FunnelUp_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FunnelUp_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FunnelUp_Example/Pods-FunnelUp_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FunnelUp_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F3AC132875D258AAB65EDEEA0ED4A5F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EBEADE8B6C06FA612CC813F19C7E235 /* Pods-FunnelUp_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FunnelUp_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FunnelUp_Example/Pods-FunnelUp_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FunnelUp_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -668,15 +512,6 @@
 			buildConfigurations = (
 				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
 				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		31D80320E7012FEBBFFF024BAF5C93D6 /* Build configuration list for PBXNativeTarget "Pods-FunnelUp_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF0496DB1DD62AAEBBC64EA8B041A102 /* Debug */,
-				F3AC132875D258AAB65EDEEA0ED4A5F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -690,11 +525,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDD304899F50122B243541ED3C11BDAD /* Build configuration list for PBXNativeTarget "FunnelUp" */ = {
+		9CF4709BC1E13013A4AAA5DB015E230C /* Build configuration list for PBXNativeTarget "Pods-FunnelUp_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				760FB75AA8B973505544AD89D0638402 /* Debug */,
-				1D85403C335A25487E6F7AD91E44235A /* Release */,
+				046F44930E03105C5F07FF807DFBC1FE /* Debug */,
+				33F48C1A861AF218C5DBB6FB5067D7EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
