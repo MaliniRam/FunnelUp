@@ -20,6 +20,8 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>GleanTapAppId</key>
+	<string>5833fb09fbb5971f3ea36be7</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>

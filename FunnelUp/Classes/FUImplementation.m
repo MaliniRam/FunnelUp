@@ -87,7 +87,13 @@
     NSLog(@"appId %@ and deviceToken %@ Data Dict",appId,deviceToken);
     @try
     {
-        NSDictionary *sendDic=[NSDictionary dictionaryWithObjectsAndKeys:appId,@"appid",deviceToken,@"devicetoken",userName,@"userid",dataDict,@"data",nil];
+        
+        NSBundle* mainBundle = [NSBundle mainBundle];
+        
+        
+        // Reads the value of the custom key I added to the Info.plist
+        NSString *value = [mainBundle objectForInfoDictionaryKey:@"GleanTapAppId"];
+        NSDictionary *sendDic=[NSDictionary dictionaryWithObjectsAndKeys:value,@"appid",deviceToken,@"devicetoken",userName,@"userid",@"ios",@"platform",dataDict,@"data",nil];
         NSError *writeError = nil;
         NSData *requestData = [NSJSONSerialization dataWithJSONObject:sendDic options:NSJSONWritingPrettyPrinted error:&writeError];
         NSString *baseURL=@"http://45.55.245.79:81/projects/gleantap/users/api/userdetails";
