@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'FunnelUp'
-s.version          = '0.1.18
+s.version          = '0.1.19
 
 '
 s.summary          = 'Allows users to send their device token to our server, so that they can start receiving push notifications'
@@ -36,7 +36,7 @@ s.source_files = 'FunnelUp/Classes'
 #   'FunnelUp' => ['FunnelUp/Assets/*.png']
 # }
 
-# s.public_header_files = 'Pod/Classes/'
+
 # s.frameworks = 'UIKit', 'MapKit'
 # s.dependency 'AFNetworking', '~> 2.3'
 end
