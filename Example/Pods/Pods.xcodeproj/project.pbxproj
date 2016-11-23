@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		0D1335E98205517A6DCE3774078652FB /* Pods-FunnelUp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A28C13F0123E51272B535F8AE8C6F453 /* Pods-FunnelUp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		186DD9A050B8A80E2A2E5EE37217DF8D /* Pods-FunnelUp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73627621465DCBFC764F64593A204793 /* Pods-FunnelUp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B1F85291DE56B7C00738791 /* FUImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D0A78523C86E21D805A8F9C1A5F164 /* FUImplementation.m */; };
 		1E4AE5F92FE81C776551768A2CAF9D25 /* Pods-FunnelUp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C92CEC0ADDDEB4DC651BE6370DCCE6D /* Pods-FunnelUp_Example-dummy.m */; };
-		223E734FF79DC987C1EF65CEAAF7EAEE /* FUImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D0A78523C86E21D805A8F9C1A5F164 /* FUImplementation.m */; };
 		2CA9D8B1896A0108ECC07780B096860E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		4E0366FF070AEDAF840F473B5B7331B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		72428FC25DE4801DA6C947ACB77DB31B /* FunnelUp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB24C782F064A4171CCEA6FDDC85075 /* FunnelUp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D789134417A8DDDB3BAFD30FEDBDF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		A76D1DEFFF606118511D486F222EEB1A /* Pods-FunnelUp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEABEDE0201E1225276A2454190B5C6 /* Pods-FunnelUp_Tests-dummy.m */; };
 		D4D7E06BAB28BB8364E0970C6688C872 /* FunnelUp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2340A2151BD88F029F0CE058AECB2BDD /* FunnelUp-dummy.m */; };
-		E9895CB3AA65A2A23DE9FD9CA13ABB10 /* FUImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F54D2F11E1B5D6ED01E9BE8D17F81A1 /* FUImplementation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9895CB3AA65A2A23DE9FD9CA13ABB10 /* FUImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F54D2F11E1B5D6ED01E9BE8D17F81A1 /* FUImplementation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -357,7 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				223E734FF79DC987C1EF65CEAAF7EAEE /* FUImplementation.m in Sources */,
+				1B1F85291DE56B7C00738791 /* FUImplementation.m in Sources */,
 				D4D7E06BAB28BB8364E0970C6688C872 /* FunnelUp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
