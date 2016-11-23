@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'FunnelUp'
-s.version          = '0.1.14
+s.version          = '0.1.16
 
 '
 s.summary          = 'Allows users to send their device token to our server, so that they can start receiving push notifications'
@@ -30,7 +30,7 @@ s.source           = { :git => 'https://github.com/MaliniRam/FunnelUp.git', :tag
 
 s.ios.deployment_target = '8.0'
 
-s.source_files = 'FunnelUp/Classes/**/*'
+s.source_files = 'FunnelUp/Classes'
 
 # s.resource_bundles = {
 #   'FunnelUp' => ['FunnelUp/Assets/*.png']

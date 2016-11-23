@@ -1,0 +1,6 @@
+framework module FunnelUp {
+  umbrella header "FunnelUp-umbrella.h"
+
+  export *
+  module * { export * }
+}
